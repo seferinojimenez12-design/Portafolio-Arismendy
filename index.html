@@ -1,0 +1,457 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio personal de Arismendy Jiménez, estudiante de informática y desarrollador web en formación.">
+  <meta name="keywords" content="Arismendy Jiménez, portafolio, informática, desarrollo web, HTML, CSS, JavaScript, C#, SQL Server">
+  <meta name="author" content="Arismendy Jiménez">
+  <meta name="theme-color" content="#10121c">
+  <title>Arismendy Jiménez | Portafolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- NAVEGACIÓN -->
+  <nav class="navbar navbar-expand-lg fixed-top site-navbar" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand code-font" href="#inicio">
+        <span class="accent">&lt;</span>AJ<span class="accent">/&gt;</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formacion">Formación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          <li class="nav-item">
+            <button id="themeToggle" class="theme-btn ms-lg-2" type="button"
+              aria-label="Activar modo claro" title="Cambiar tema">
+              <i class="fa-solid fa-sun" aria-hidden="true"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="contenido">
+
+    <!-- INICIO -->
+    <section id="inicio" class="hero-section">
+      <div class="container position-relative">
+        <div class="row align-items-center min-vh-100 py-5">
+
+          <!-- PRESENTACIÓN -->
+          <div class="col-lg-7 hero-copy">
+            <p class="eyebrow code-font">
+              <span class="accent">●</span> ESTUDIANTE DE INFORMÁTICA · EN FORMACIÓN
+            </p>
+
+            <p class="code-font terminal-line">Hola, mundo. Soy</p>
+
+            <h1>
+              Arismendy <span class="gradient-text">Jiménez</span>
+              <span class="cursor">_</span>
+            </h1>
+
+            <h2 class="hero-subtitle">
+              Desarrollador web <span class="accent">en formación</span>
+            </h2>
+
+            <p class="hero-description">
+              Me interesa la programación, el desarrollo de aplicaciones y las bases de datos.
+              Me gusta transformar ideas en proyectos digitales y aprender algo nuevo con cada práctica.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a class="btn btn-main" href="#proyectos">
+                Ver mis proyectos
+                <i class="fa-solid fa-arrow-right ms-2"></i>
+              </a>
+
+              <a class="btn btn-outline-custom" href="#contacto">Hablemos</a>
+            </div>
+
+            <div class="social-links mt-4" aria-label="Enlaces profesionales">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- FOTO PROFESIONAL -->
+          <div class="col-lg-5 hero-photo">
+            <div class="photo-frame">
+              <div class="photo-glow"></div>
+
+            <img src="Jimenez.jpg"
+     alt="Fotografía profesional de Arismendy Jiménez"
+     class="profile-image">
+
+              <div class="photo-caption">
+                <span class="accent">●</span> ARISMENDY JIMÉNEZ
+                <small>Desarrollador Webbb en Formación</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <a class="scroll-indicator" href="#sobre-mi" aria-label="Desplazarse a Sobre mí">
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="section-padding">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number code-font">01 / SOBRE MÍ</span>
+          <h2>Un poco sobre <span class="gradient-text">mí</span></h2>
+          <p>Curiosidad, creatividad y muchas ganas de seguir creciendo.</p>
+        </div>
+
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-7">
+            <div class="about-card">
+              <p>
+                ¡Hola! Soy <strong>Arismendy Jiménez</strong>, estudiante de 6.º de secundaria técnica
+                en el área de informática. Me interesa la tecnología y disfruto aprender cómo funcionan
+                las páginas web, los programas y las aplicaciones que utilizamos todos los días.
+              </p>
+
+              <p>
+                Actualmente estoy fortaleciendo mis conocimientos en desarrollo web, programación
+                con C# y administración de bases de datos con SQL Server. También practico creando
+                proyectos académicos para llevar la teoría a la práctica.
+              </p>
+
+              <p class="mb-0">
+                Mi meta es continuar preparándome, adquirir experiencia y convertirme en un
+                desarrollador de software capaz de crear soluciones útiles e innovadoras.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="info-grid">
+              <div class="info-card">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>País</span>
+                <strong>República Dominicana</strong>
+              </div>
+
+              <div class="info-card">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Formación</span>
+                <strong>6.º de secundaria técnica</strong>
+              </div>
+
+              <div class="info-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <span>Área</span>
+                <strong>Informática</strong>
+              </div>
+
+              <div class="info-card">
+                <i class="fa-solid fa-lightbulb"></i>
+                <span>Interés</span>
+                <strong>Crear soluciones digitales</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="py-5">
+      <div class="container">
+        <div class="section-heading text-center mb-5">
+          <h2>Mis <span>Habilidades</span></h2>
+          <p>Conocimientos tecnológicos que estoy desarrollando y poniendo en práctica.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 p-4">
+              <i class="fab fa-html5 fa-3x text-primary mb-3"></i>
+              <h4>HTML5</h4>
+              <p>Utilizo HTML para crear la estructura de páginas web, organizar textos, imágenes, enlaces, formularios y diferentes secciones de un sitio web.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 p-4">
+              <i class="fab fa-css3-alt fa-3x text-primary mb-3"></i>
+              <h4>CSS3</h4>
+              <p>Aplico estilos, colores, tamaños, animaciones y diseños adaptables para mejorar la apariencia y presentación de las páginas web.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 p-4">
+              <i class="fab fa-js fa-3x text-warning mb-3"></i>
+              <h4>JavaScript</h4>
+              <p>Aprendo a desarrollar funciones interactivas, validar formularios y agregar comportamientos dinámicos a las páginas web.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 p-4">
+              <i class="fas fa-code fa-3x text-primary mb-3"></i>
+              <h4>C#</h4>
+              <p>Utilizo C# para desarrollar aplicaciones de escritorio, crear formularios, programar funciones y trabajar con operaciones CRUD.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 p-4">
+              <i class="fas fa-database fa-3x text-primary mb-3"></i>
+              <h4>SQL Server</h4>
+              <p>Trabajo con bases de datos para almacenar, consultar, modificar y eliminar información mediante instrucciones SQL.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 p-4">
+              <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+              <h4>Visual Studio Code</h4>
+              <p>Utilizo este editor para escribir, organizar y modificar código, desarrollar proyectos y trabajar con diferentes lenguajes de programación.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section-padding">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number code-font">03 / PROYECTOS</span>
+          <h2>Trabajos <span class="gradient-text">destacados</span></h2>
+          <p>Proyectos académicos y prácticas que forman parte de mi aprendizaje.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-visual visual-one">
+                <i class="fa-solid fa-scissors"></i>
+                <span>THE JIMENEZ BARBER SHOP</span>
+              </div>
+              <div class="project-content">
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
+                <h3>The Jimenez Barber Shop</h3>
+                <p>Página informativa para una barbería con presentación del negocio, servicios, precios y horarios.</p>
+                <a href="#contacto" class="project-link">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-visual visual-two">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>SISTEMA DE TIENDA</span>
+              </div>
+              <div class="project-content">
+                <div class="project-tags"><span>C#</span><span>SQL Server</span><span>CRUD</span></div>
+                <h3>Sistema de gestión de tienda</h3>
+                <p>Aplicación académica para administrar artículos, categorías, usuarios y existencias mediante una base de datos.</p>
+                <a href="#contacto" class="project-link">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-visual visual-three">
+                <i class="fa-solid fa-code"></i>
+                <span>MY WEB PORTFOLIO</span>
+              </div>
+              <div class="project-content">
+                <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+                <h3>Portafolio personal</h3>
+                <p>Mi espacio digital para presentar mi perfil, habilidades, formación y evolución como desarrollador.</p>
+                <a href="#contacto" class="project-link">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMACIÓN -->
+    <section id="formacion" class="section-padding section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number code-font">04 / FORMACIÓN</span>
+          <h2>Mi preparación <span class="gradient-text">académica</span></h2>
+          <p>La formación técnica que estoy desarrollando para construir mi futuro profesional.</p>
+        </div>
+
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div>
+            <span class="timeline-date code-font">FORMACIÓN ACTUAL</span>
+            <h3>Politécnico Profesor Víctor Pascual Agüero</h3>
+            <p class="education-degree">6.º de secundaria técnica · Desarrollo de Aplicaciones y Sistemas Informáticos</p>
+            <p class="mb-0">Estudios orientados a la programación, desarrollo de aplicaciones, bases de datos, herramientas informáticas y creación de soluciones tecnológicas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia" class="section-padding">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number code-font">05 / EXPERIENCIA</span>
+          <h2>Mi camino en la <span class="gradient-text">tecnología</span></h2>
+          <p>Formación y experiencias prácticas que aportan a mi crecimiento.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <span class="timeline-date code-font">ACTUALIDAD</span>
+            <h3>Estudiante de informática</h3>
+            <p>Formación técnica en programación, desarrollo de aplicaciones y administración de bases de datos.</p>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <span class="timeline-date code-font">PROYECTOS ACADÉMICOS</span>
+            <h3>Prácticas de desarrollo</h3>
+            <p>Creación de páginas web, ejercicios de programación y sistemas básicos como parte del aprendizaje.</p>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <span class="timeline-date code-font">META PROFESIONAL</span>
+            <h3>Convertirme en desarrollador de software</h3>
+            <p>Continuar aprendiendo, participar en proyectos reales y fortalecer mis habilidades técnicas y personales.</p>
+          </article>
+        </div>
+
+        <p class="experience-note">Esta sección presenta formación y prácticas académicas; no representa empleos formales.</p>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section-padding section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number code-font">06 / CONTACTO</span>
+          <h2>¿Creamos algo <span class="gradient-text">juntos</span>?</h2>
+          <p>Si tienes una idea, un proyecto o quieres conversar sobre tecnología, puedes escribirme.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <div class="contact-info h-100">
+              <h3>Conectemos</h3>
+              <p>Estoy interesado en conocer nuevas ideas, colaborar en proyectos de práctica y seguir aprendiendo.</p>
+
+              <div class="contact-detail">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Estudiante de informática</span>
+              </div>
+
+              <a class="contact-detail" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i><span>GitHub</span>
+              </a>
+
+              <a class="contact-detail" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i><span>LinkedIn</span>
+              </a>
+
+              <p class="contact-hint">Reemplaza los enlaces de GitHub y LinkedIn por las direcciones de tus perfiles personales.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form id="contactForm" class="contact-form">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="nombre" class="form-label">Tu nombre</label>
+                  <input id="nombre" name="nombre" class="form-control" type="text" placeholder="Nombre" autocomplete="name" required>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="correo" class="form-label">Tu correo</label>
+                  <input id="correo" name="correo" class="form-control" type="email" placeholder="correo@ejemplo.com" autocomplete="email" required>
+                </div>
+
+                <div class="col-12">
+                  <label for="asunto" class="form-label">Asunto</label>
+                  <input id="asunto" name="asunto" class="form-control" type="text" placeholder="¿De qué quieres hablar?" required>
+                </div>
+
+                <div class="col-12">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea id="mensaje" name="mensaje" class="form-control" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+                </div>
+
+                <div class="col-12">
+                  <button class="btn btn-main" type="submit">
+                    Enviar mensaje <i class="fa-solid fa-paper-plane ms-2"></i>
+                  </button>
+                  <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+                  <p class="form-disclaimer">Formulario demostrativo: muestra una confirmación, pero no envía correos electrónicos.</p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <a class="navbar-brand code-font" href="#inicio">
+        <span class="accent">&lt;</span>AJ<span class="accent">/&gt;</span>
+      </a>
+
+      <p class="mb-0">© <span id="year"></span> Arismendy Jiménez.</p>
+
+      <a href="#inicio" class="back-top">
+        Volver arriba <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
